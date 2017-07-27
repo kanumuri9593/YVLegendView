@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YVLegendView" customModule="LegendView" customModuleProvider="target">
+            <connections>
+                <outlet property="legendButton" destination="TEm-tn-7CW" id="7u1-Ds-OMH"/>
+                <outlet property="tabelView" destination="ovV-Ab-0hm" id="F8A-Sz-tgJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="219" height="294"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="dfJ-hS-pL4">
+                    <rect key="frame" x="0.0" y="0.0" width="219" height="294"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEm-tn-7CW">
+                    <rect key="frame" x="0.0" y="0.0" width="22" height="130"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="FLd-L6-EKK"/>
+                        <constraint firstAttribute="height" constant="130" id="v3W-e7-TAK"/>
+                    </constraints>
+                    <connections>
+                        <action selector="LegendButtonTapped:" destination="-1" eventType="touchUpInside" id="M0k-ua-unh"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ovV-Ab-0hm">
+                    <rect key="frame" x="22" y="14" width="193" height="272"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="bZ9-j9-PLO"/>
+                        <outlet property="delegate" destination="-1" id="f48-HG-hvg"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TEm-tn-7CW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7YG-qt-kSn"/>
+                <constraint firstItem="dfJ-hS-pL4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DZv-ek-K0n"/>
+                <constraint firstItem="ovV-Ab-0hm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="Dz9-vj-YlS"/>
+                <constraint firstAttribute="trailing" secondItem="dfJ-hS-pL4" secondAttribute="trailing" id="IlT-wh-2N3"/>
+                <constraint firstItem="TEm-tn-7CW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="S9M-8Y-Ibm"/>
+                <constraint firstItem="dfJ-hS-pL4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Y0L-nC-ylf"/>
+                <constraint firstItem="ovV-Ab-0hm" firstAttribute="leading" secondItem="TEm-tn-7CW" secondAttribute="trailing" id="ce8-jN-La0"/>
+                <constraint firstAttribute="trailing" secondItem="ovV-Ab-0hm" secondAttribute="trailing" constant="4" id="qcU-Cr-C7y"/>
+                <constraint firstAttribute="bottom" secondItem="ovV-Ab-0hm" secondAttribute="bottom" constant="8" id="rKs-22-lJt"/>
+                <constraint firstAttribute="bottom" secondItem="dfJ-hS-pL4" secondAttribute="bottom" id="u1p-dT-ugE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="44.5" y="174"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg" width="300" height="400"/>
+    </resources>
+</document>
