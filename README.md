@@ -3,8 +3,13 @@ A simple Legend View to categorize and group layers in the map into sections.
 
 Build using Simple callback Api's and custom nib easy to understand and customize to your requirements.
 
-<img src="http://imgur.com/a/ffT1b">
-<img src="https://raw.githubusercontent.com/kanumuri9593/YVLegendView/master/images/1.png" width="340px">
+<img src="https://github.com/kanumuri9593/YVLegendView/blob/master/Images/1.png" width="340px">
+
+
+<img src="https://github.com/kanumuri9593/YVLegendView/blob/master/Images/2.png" width="340px">
+
+
+<img src="https://github.com/kanumuri9593/YVLegendView/blob/master/Images/3.png" width="340px">
 
 ### Installing
 Just Clone or download this repo to your desktop
