@@ -1,7 +1,7 @@
 # YVLegendView
 A simple Legend View to categorize and group layers in the map into sections.
 
-Build using Simple callback Api's and custom nib easy to understand and customize to your requirements.
+Build using Simple callback Api's and custom nib's easy to understand and customize to your requirements.
 
 <img src="https://github.com/kanumuri9593/YVLegendView/blob/master/Images/1.png" width="340px">
 
