@@ -33,7 +33,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIImage(named: <#T##String#>)
         AddLegendView(LegendInfoFeed:MultipleLegendFeed)
     }
     
