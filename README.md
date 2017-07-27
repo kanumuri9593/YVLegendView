@@ -3,7 +3,7 @@ A simple Legend View to categorize and group layers in the map into sections.
 
 Build using Simple callback Api's and custom nib easy to understand and customize to your requirements.
 
-<img src="https://ibb.co/fnPLjk" width="340px">
+<img src="http://imgur.com/a/ffT1b">
 <img src="https://raw.githubusercontent.com/kanumuri9593/YVLegendView/master/images/1.png" width="340px">
 
 ### Installing
