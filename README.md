@@ -75,7 +75,7 @@ Thats it its done you can reuse this View in multiple maps with custom layers an
 
 ## Author
 
-* **Yeswanth Varma Kanumuri** - [kanumuri9593](https://github.com/kanumuri9593)
+ **Yeswanth Varma Kanumuri** - [kanumuri9593](https://github.com/kanumuri9593)
 
 ## License
 
