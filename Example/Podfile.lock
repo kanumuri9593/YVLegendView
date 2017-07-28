@@ -1,0 +1,16 @@
+PODS:
+  - YVLegendView (0.1.0)
+
+DEPENDENCIES:
+  - YVLegendView (from `../`)
+
+EXTERNAL SOURCES:
+  YVLegendView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YVLegendView: 46c57a6f0b0cb9f515851f2ba4465cd10cae2a79
+
+PODFILE CHECKSUM: 65538c762d0eaf197c649f9e10749927f8b9b417
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module YVLegendView {
+  umbrella header "YVLegendView-umbrella.h"
+
+  export *
+  module * { export * }
+}
