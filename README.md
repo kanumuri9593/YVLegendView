@@ -13,7 +13,7 @@ Build using Simple callback Api's and custom nib's easy to understand and custom
 
 ### Installing
 Just Clone or download this repo to your desktop
-drag and drop **YVLegendView** Folder to your Project, thats it you are ready to use it in your view.
+drag and drop **YVLegendView** Folder to your Project, that's it you are ready to use it in your view.
 
 ### Prerequisites
 Written in **Swift 3**
@@ -71,7 +71,7 @@ the call this method in ViewDidLoad
 ```swift
 AddLegendView(LegendInfoFeed:MultipleLegendFeed)
 ```
-Thats it its done you can reuse this View in multiple maps with custom layers and fell free to customize the files according to your need
+ It's done you can reuse this View in multiple maps with custom layers and fell free to customize the files according to your need
 
 ## Author
 
