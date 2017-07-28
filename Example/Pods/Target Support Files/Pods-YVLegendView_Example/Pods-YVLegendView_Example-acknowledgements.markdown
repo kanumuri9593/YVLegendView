@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## YVLegendView
 
-Copyright (c) 2017 kanumuri9593 <ykanumuri@dsny.nyc.gov>
+Copyright (c) 2017 Yeswanth Varma Kanumuri <yeshuRAJ.9593@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
