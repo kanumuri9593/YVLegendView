@@ -83,7 +83,7 @@ Thats it its done you can reuse this View in multiple maps with custom layers an
 #s.screenshots     = 'https://github.com/kanumuri9593/YVLegendView/blob/master/Images/1.png', 'https://github.com/kanumuri9593/YVLegendView/blob/master/Images/2.png','https://github.com/kanumuri9593/YVLegendView/blob/master/Images/3.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yeswanth Varma Kanumuri' => 'yeshuRAJ.9593@gmail.com' }
-  s.source           = { :git => 'https://github.com/kanumuri9593/YVLegendView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kanumuri9593/YVLegendView.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
