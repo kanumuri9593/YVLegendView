@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E063C9638466F04B9C51419586E9BAFB73CB10F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2E063C9638466F04B9C51419586E9BAFB73CB10F" : 9223372036854775807,
+    "167655D693ED82B62EB5228FEF72676DD2F86429" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08EB11B7-ECC2-41A0-8E65-D5B92940FA66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2E063C9638466F04B9C51419586E9BAFB73CB10F" : "YVLegendView\/",
+    "167655D693ED82B62EB5228FEF72676DD2F86429" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LegendView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LegendView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/yvkanumuri\/rammy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "167655D693ED82B62EB5228FEF72676DD2F86429"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kanumuri9593\/YVLegendView",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E063C9638466F04B9C51419586E9BAFB73CB10F"
+    }
+  ]
+}
