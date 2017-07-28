@@ -23,12 +23,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-**CocoPods**
+#### Using [CocoaPods](http://cocoapods.org/)
 
-YVLegendView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Add `pod 'YVLegendView'` to your `Podfile` and run `pod install`. Also add `use_frameworks!` to the `Podfile`.
 
-**Manual**
+```
+use_frameworks!
+pod 'YVLegendView'
+```
+#### Manual
 
 Just Clone or download this repo to your desktop
 drag and drop **YVLegendView** Folder to your Project, that's it you are ready to use it in your view.
@@ -38,7 +41,11 @@ Written in **Swift 3**
 supports from iOS 9 and above
 Xcode 8 and above
 
-## Getting Started
+## Usage
+
+`import YVLegendView` to your ViewController
+
+then follow these three steps:
 
 First simply Initiate a array of Objects (Layer info with icons)
 
