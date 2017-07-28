@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YVLegendView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple Legend View which slides in to show categorize and group layers in the map into sections.'
 
 # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ Thats it its done you can reuse this View in multiple maps with custom layers an
 #s.screenshots     = 'https://github.com/kanumuri9593/YVLegendView/blob/master/Images/1.png', 'https://github.com/kanumuri9593/YVLegendView/blob/master/Images/2.png','https://github.com/kanumuri9593/YVLegendView/blob/master/Images/3.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yeswanth Varma Kanumuri' => 'yeshuRAJ.9593@gmail.com' }
-  s.source           = { :git => 'https://github.com/kanumuri9593/YVLegendView.git' , :tag => s.version.to_s}
+  s.source           = { :git => 'https://github.com/kanumuri9593/YVLegendView.git' , :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
