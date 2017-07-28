@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/YVLegendView.svg?style=flat)](http://cocoapods.org/pods/YVLegendView)
 [![Platform](https://img.shields.io/cocoapods/p/YVLegendView.svg?style=flat)](http://cocoapods.org/pods/YVLegendView)
 
-# YVLegendView
 A simple Legend View to categorize and group layers in the map into sections.
 
 Build using Simple callback Api's and custom nib's easy to understand and customize to your requirements.
@@ -22,20 +21,19 @@ Build using Simple callback Api's and custom nib's easy to understand and custom
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
-*CocoPods*
+**CocoPods**
 
 YVLegendView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-*Manual*
+**Manual**
+
 Just Clone or download this repo to your desktop
 drag and drop **YVLegendView** Folder to your Project, that's it you are ready to use it in your view.
 
-### Prerequisites
+### Support
 Written in **Swift 3**
 supports from iOS 9 and above
 Xcode 8 and above
